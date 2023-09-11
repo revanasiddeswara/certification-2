@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Store Management</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="Kafene Logo">
+            <span>Kafene</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="orderListing.html">Order</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="user.html">User</a></li>
+        </ul>
+    </nav>
+    <div class="login-container">
+        <h1>SignIn</h1>
+        <form id="login-form">
+            <input type="text" id="username" name="username" placeholder="Enter Username" required>
+            <input type="password" id="password" name="password" placeholder="Enter Username" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

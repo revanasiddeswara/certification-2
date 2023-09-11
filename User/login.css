@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Add your CSS styles for the navigation bar and page layout here */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #f5f5f5;
+    color: #000000cc;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .logo span {
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: left;
+}
+
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    /* background-color: #f5f5f5; */
+    color: #000000cc;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+}
+
+
+h1 {
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0 0 24px;
+}
+
+label, input {
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

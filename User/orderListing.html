@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Listing</title>
+    <link rel="stylesheet" href="orderListing.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="Kafene Logo">
+            <span>Kafene</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="orderListing.html">Order</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="user.html">User</a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <h1>Order Listing</h1>
+        <div class="filter">
+            <label>
+                <input type="checkbox" id="newOrderCheckbox"> New
+            </label>
+            <label>
+                <input type="checkbox" id="packedOrderCheckbox"> Packed
+            </label>
+            <label>
+                <input type="checkbox" id="inTransitOrderCheckbox"> InTransit
+            </label>
+            <label>
+                <input type="checkbox" id="deliveredOrderCheckbox"> Delivered
+            </label>
+        </div>
+    </div>
+    <table id="order-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Customer Name</th>
+                <th>Order Date</th>
+                <th>Order Time</th>
+                <th>Amount</th>
+                <th>Order Status</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="orderListing.js"></script>
+</body>
+</html>

@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+/* Add your CSS styles for the navigation bar and page layout here */
+
+.navbar {
+    background-color: #f5f5f5;
+    color: #000000cc;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar .logo span {
+    font-size: 24px;
+    margin-right: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: left;
+}
+
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    /* background-color: #f5f5f5; */
+    color: #000000cc;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+/* Add more styles for the page layout as needed */
+
+.header {
+    background-color: #20b883;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    margin-right: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #20b883;
+    color: white;
+}
+
+th, td {
+    font-size: 14px;
+}
+
+.checkbox-container {
+    margin-bottom: 10px;
+}
+
+.checkbox-container label {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.checkbox-container input {
+    margin-right: 5px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #20b883;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #20b883;
+}
+
+.button-container button:focus {
+    outline: none;
+}
